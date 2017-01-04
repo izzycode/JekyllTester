@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+category: production
+tags: [nigthlife, south-beach, dj]
 ---
 
 
