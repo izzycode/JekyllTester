@@ -42,18 +42,19 @@
   </script>
   <script type="application/ld+json">
       {
-      "@context":"http://schema.org",
-      "@type":"Organization",
-      "name":"Bash Network",
-      "url": "http://bashnetwork.com",
-      "logo":"",
-      "sameAs": [ "https://www.facebook.com/", "https://plus.google.com//", "https://twitter.com/"],
-      "contactPoint": [
-      {   "@type": "ContactPoint",
-      "telephone": "",
-      "contactType": "sales",
-      "areaServed": [ "US" ] }
-      ]
+        "@context":"http://schema.org",
+        "@type":"Organization",
+        "name":"Bash Network",
+        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+        "logo":"",
+        "sameAs": [ "https://www.facebook.com/", "https://plus.google.com//", "https://twitter.com/"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-866-740-4531",
+          "contactType": "sales",
+          "areaServed": [ "US" ]
+        }
+
       }
   </script>
 
@@ -62,7 +63,11 @@
     {
       "@context": "http://schema.org",
       "@type": "Article",
-      "author": "John Doe",
+      "datePublished": "{{ page.date }}",
+      "author": "{{ page.author }}",
+      "image": "{{ page.image }}",
+      "headline": "{{ page.title }}",
+      "publisher": "{{ page.publisher }}",
       "interactionStatistic": [
         {
           "@type": "InteractionCounter",
@@ -78,9 +83,8 @@
           "@type": "InteractionCounter",
           "interactionType": "http://schema.org/CommentAction",
           "userInteractionCount": "78"
-        },
-      ],
-      "name": "How to Tie a Reef Knot"
+        }
+      ]
     }
   </script>
 

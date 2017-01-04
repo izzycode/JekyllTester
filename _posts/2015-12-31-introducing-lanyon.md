@@ -9,7 +9,9 @@ tags:
 categories:
 - testing
 description: Here we describe what this Jekyll template is about
-
+author: A handsome gentleman
+publisher: The Publisher
+image: no image :(
 ---
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
