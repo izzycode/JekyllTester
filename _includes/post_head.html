@@ -44,7 +44,7 @@
       {
       "@context":"http://schema.org",
       "@type":"Organization",
-      "name":"Bash Network",
+      "name”:”Bash Network",
       "url": "http://bashnetwork.com",
       "logo":"",
       "sameAs": [ "https://www.facebook.com/", "https://plus.google.com//", "https://twitter.com/"],
@@ -55,6 +55,32 @@
       "areaServed": [ "US" ] }
       ]
       }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "author": "John Doe",
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionService": {
+            "@type": "Website",
+            "name": "Twitter",
+            "url": "http://www.twitter.com"
+          },
+          "interactionType": "http://schema.org/ShareAction",
+          "userInteractionCount": "1203"
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "http://schema.org/CommentAction",
+          "userInteractionCount": "78"
+        },
+      ],
+      "name": "How to Tie a Reef Knot"
+    }
   </script>
 
   {% if site.mathjax %}
