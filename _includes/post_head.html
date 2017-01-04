@@ -63,11 +63,16 @@
     {
       "@context": "http://schema.org",
       "@type": "Article",
-      "datePublished": "{{ page.date }}",
-      "author": "{{ page.author }}",
-      "image": "{{ page.image }}",
-      "headline": "{{ page.title }}",
-      "publisher": "{{ page.publisher }}",
+      "datePublished": "2017-01-04",  //"{{ page.date }}",
+      "author": "Author", //"{{ page.author }}",
+      "image": "http://musicbrainz.org/label/26df054d-78cf-4d83-9bb1-a41816125528", //"{{ page.image }}",
+      "headline": "Title", //"{{ page.title }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Northern Songs, Ltd.",
+        "@id": "http://musicbrainz.org/label/26df054d-78cf-4d83-9bb1-a41816125528",
+        "logo":""
+      },  //"{{ page.publisher }}",
       "interactionStatistic": [
         {
           "@type": "InteractionCounter",
