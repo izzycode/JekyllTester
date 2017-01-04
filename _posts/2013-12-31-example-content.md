@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Example content
-category: production
-tags: [nigthlife, south-beach, dj]
+date: '2013-12-31 11:10:58'
+tags:
+- nightlife
+- dj
+categories:
+- production
+description: This post server as an example of content
 ---
 
 

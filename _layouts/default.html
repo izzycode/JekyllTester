@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% if post %}
+  {% if page.layout == 'post' %}
     {% include post_head.html %}
   {% else %}
     {% include head.html %}
   {% endif %}
-
 
   <body>
 

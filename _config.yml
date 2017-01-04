@@ -68,5 +68,5 @@ defaults:
       type: posts
     values:
       tags: []
-      category: ""
+      categories: []
       description: ""

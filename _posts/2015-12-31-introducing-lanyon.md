@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Introducing Lanyon
-category: testing
-tags: [nigthlife, south-beach, dj]
+date: '2015-12-31 11:10:58'
+tags:
+- nightlife
+- south beach
+- dj
+categories:
+- testing
+description: Here we describe what this Jekyll template is about
 
 ---
 
